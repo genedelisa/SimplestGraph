@@ -1,7 +1,8 @@
 Simplest Graph
 ======
 
-Core Audio graph example.
+Core Audio graph example from my [Blog Post](http://rockhoppertech.com/blog/ios-audio-unit-graph/ "Blog post") 
+
 
 What is Simplest Graph?
 ---------------
@@ -17,7 +18,8 @@ The graph is as simple as possible; the sampler unit feeding directly into the R
 The sound played is the default sine wave. In the next project, we'll add a DLS file and/or a SountFont2 bank.
 
 All errors are checked using a modified version of Chris Adamson's CheckError function.
-Get his book if you are doing any Core Audio programming. If you're not, then why are you here? :)
+Get his [book]("http://www.amazon.com/gp/product/0321636848/ref=as_li_ss_tl?ie=UTF8&tag=httpwwwrockhc-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0321636848" target=_blank>Learning Core Audio: A Hands-On Guide to Audio Programming for Mac and iOS</a><img src="http://www.assoc-amazon.com/e/ir?t=httpwwwrockhc-20&l=as2&o=1&a=0321636848" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;) if you are doing any Core Audio programming. If you're not, then why are you here? :)
+
 
 License
 -------
