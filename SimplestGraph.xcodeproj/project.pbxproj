@@ -20,6 +20,10 @@
 		B0129FDF1599D06A009A381D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0129FC01599D069009A381D /* Foundation.framework */; };
 		B0129FE71599D06A009A381D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B0129FE51599D06A009A381D /* InfoPlist.strings */; };
 		B0129FEA1599D06A009A381D /* SimplestGraphTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0129FE91599D06A009A381D /* SimplestGraphTests.m */; };
+		B0129FF51599D146009A381D /* GDSoundEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = B0129FF41599D146009A381D /* GDSoundEngine.m */; };
+		B0129FF81599D2A4009A381D /* GDCoreAudioUtils.c in Sources */ = {isa = PBXBuildFile; fileRef = B0129FF61599D2A4009A381D /* GDCoreAudioUtils.c */; };
+		B0129FFB1599D40B009A381D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0129FF91599D40B009A381D /* AudioToolbox.framework */; };
+		B0129FFC1599D40B009A381D /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0129FFA1599D40B009A381D /* CoreAudio.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,21 +41,27 @@
 		B0129FBE1599D069009A381D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B0129FC01599D069009A381D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B0129FC21599D069009A381D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		B0129FC61599D069009A381D /* SimplestGraph-Info.plist */ = {isa = PBXFileReference; path = "SimplestGraph-Info.plist"; sourceTree = "<group>"; };
+		B0129FC61599D069009A381D /* SimplestGraph-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimplestGraph-Info.plist"; sourceTree = "<group>"; };
 		B0129FC81599D069009A381D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B0129FCA1599D069009A381D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B0129FCC1599D069009A381D /* SimplestGraph-Prefix.pch */ = {isa = PBXFileReference; path = "SimplestGraph-Prefix.pch"; sourceTree = "<group>"; };
-		B0129FCD1599D069009A381D /* GDAppDelegate.h */ = {isa = PBXFileReference; path = GDAppDelegate.h; sourceTree = "<group>"; };
+		B0129FCC1599D069009A381D /* SimplestGraph-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimplestGraph-Prefix.pch"; sourceTree = "<group>"; };
+		B0129FCD1599D069009A381D /* GDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GDAppDelegate.h; sourceTree = "<group>"; };
 		B0129FCE1599D069009A381D /* GDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GDAppDelegate.m; sourceTree = "<group>"; };
 		B0129FD11599D069009A381D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		B0129FD31599D069009A381D /* GDViewController.h */ = {isa = PBXFileReference; path = GDViewController.h; sourceTree = "<group>"; };
+		B0129FD31599D069009A381D /* GDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GDViewController.h; sourceTree = "<group>"; };
 		B0129FD41599D069009A381D /* GDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GDViewController.m; sourceTree = "<group>"; };
 		B0129FDB1599D06A009A381D /* SimplestGraphTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimplestGraphTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0129FDC1599D06A009A381D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		B0129FE41599D06A009A381D /* SimplestGraphTests-Info.plist */ = {isa = PBXFileReference; path = "SimplestGraphTests-Info.plist"; sourceTree = "<group>"; };
+		B0129FE41599D06A009A381D /* SimplestGraphTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimplestGraphTests-Info.plist"; sourceTree = "<group>"; };
 		B0129FE61599D06A009A381D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		B0129FE81599D06A009A381D /* SimplestGraphTests.h */ = {isa = PBXFileReference; path = SimplestGraphTests.h; sourceTree = "<group>"; };
+		B0129FE81599D06A009A381D /* SimplestGraphTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimplestGraphTests.h; sourceTree = "<group>"; };
 		B0129FE91599D06A009A381D /* SimplestGraphTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimplestGraphTests.m; sourceTree = "<group>"; };
+		B0129FF31599D146009A381D /* GDSoundEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDSoundEngine.h; sourceTree = "<group>"; };
+		B0129FF41599D146009A381D /* GDSoundEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDSoundEngine.m; sourceTree = "<group>"; };
+		B0129FF61599D2A4009A381D /* GDCoreAudioUtils.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = GDCoreAudioUtils.c; path = ../GDCoreAudioUtils.c; sourceTree = "<group>"; };
+		B0129FF71599D2A4009A381D /* GDCoreAudioUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDCoreAudioUtils.h; path = ../GDCoreAudioUtils.h; sourceTree = "<group>"; };
+		B0129FF91599D40B009A381D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		B0129FFA1599D40B009A381D /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +69,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0129FFB1599D40B009A381D /* AudioToolbox.framework in Frameworks */,
+				B0129FFC1599D40B009A381D /* CoreAudio.framework in Frameworks */,
 				B0129FBF1599D069009A381D /* UIKit.framework in Frameworks */,
 				B0129FC11599D069009A381D /* Foundation.framework in Frameworks */,
 				B0129FC31599D069009A381D /* CoreGraphics.framework in Frameworks */,
@@ -100,6 +112,8 @@
 		B0129FBD1599D069009A381D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B0129FF91599D40B009A381D /* AudioToolbox.framework */,
+				B0129FFA1599D40B009A381D /* CoreAudio.framework */,
 				B0129FBE1599D069009A381D /* UIKit.framework */,
 				B0129FC01599D069009A381D /* Foundation.framework */,
 				B0129FC21599D069009A381D /* CoreGraphics.framework */,
@@ -111,12 +125,16 @@
 		B0129FC41599D069009A381D /* SimplestGraph */ = {
 			isa = PBXGroup;
 			children = (
+				B0129FF61599D2A4009A381D /* GDCoreAudioUtils.c */,
+				B0129FF71599D2A4009A381D /* GDCoreAudioUtils.h */,
 				B0129FCD1599D069009A381D /* GDAppDelegate.h */,
 				B0129FCE1599D069009A381D /* GDAppDelegate.m */,
 				B0129FD01599D069009A381D /* MainStoryboard.storyboard */,
 				B0129FD31599D069009A381D /* GDViewController.h */,
 				B0129FD41599D069009A381D /* GDViewController.m */,
 				B0129FC51599D069009A381D /* Supporting Files */,
+				B0129FF31599D146009A381D /* GDSoundEngine.h */,
+				B0129FF41599D146009A381D /* GDSoundEngine.m */,
 			);
 			path = SimplestGraph;
 			sourceTree = "<group>";
@@ -262,6 +280,8 @@
 				B0129FCB1599D069009A381D /* main.m in Sources */,
 				B0129FCF1599D069009A381D /* GDAppDelegate.m in Sources */,
 				B0129FD51599D069009A381D /* GDViewController.m in Sources */,
+				B0129FF51599D146009A381D /* GDSoundEngine.m in Sources */,
+				B0129FF81599D2A4009A381D /* GDCoreAudioUtils.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
