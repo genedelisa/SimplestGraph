@@ -10,4 +10,9 @@
 
 @interface GDViewController : UIViewController
 
+- (IBAction)noteOn:(UIButton *)sender;
+- (IBAction)noteOff:(UIButton *)sender;
+
+@property (weak, nonatomic) IBOutlet UIButton *playButton;
+
 @end
