@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B0129FBF1599D069009A381D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0129FBE1599D069009A381D /* UIKit.framework */; };
+		B0129FC11599D069009A381D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0129FC01599D069009A381D /* Foundation.framework */; };
+		B0129FC31599D069009A381D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0129FC21599D069009A381D /* CoreGraphics.framework */; };
+		B0129FC91599D069009A381D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B0129FC71599D069009A381D /* InfoPlist.strings */; };
+		B0129FCB1599D069009A381D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0129FCA1599D069009A381D /* main.m */; };
+		B0129FCF1599D069009A381D /* GDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0129FCE1599D069009A381D /* GDAppDelegate.m */; };
+		B0129FD21599D069009A381D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0129FD01599D069009A381D /* MainStoryboard.storyboard */; };
+		B0129FD51599D069009A381D /* GDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0129FD41599D069009A381D /* GDViewController.m */; };
+		B0129FDD1599D06A009A381D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0129FDC1599D06A009A381D /* SenTestingKit.framework */; };
+		B0129FDE1599D06A009A381D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0129FBE1599D069009A381D /* UIKit.framework */; };
+		B0129FDF1599D06A009A381D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0129FC01599D069009A381D /* Foundation.framework */; };
+		B0129FE71599D06A009A381D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B0129FE51599D06A009A381D /* InfoPlist.strings */; };
+		B0129FEA1599D06A009A381D /* SimplestGraphTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0129FE91599D06A009A381D /* SimplestGraphTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B0129FE01599D06A009A381D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0129FB11599D069009A381D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0129FB91599D069009A381D;
+			remoteInfo = SimplestGraph;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B0129FBA1599D069009A381D /* SimplestGraph.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimplestGraph.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0129FBE1599D069009A381D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B0129FC01599D069009A381D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B0129FC21599D069009A381D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B0129FC61599D069009A381D /* SimplestGraph-Info.plist */ = {isa = PBXFileReference; path = "SimplestGraph-Info.plist"; sourceTree = "<group>"; };
+		B0129FC81599D069009A381D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B0129FCA1599D069009A381D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B0129FCC1599D069009A381D /* SimplestGraph-Prefix.pch */ = {isa = PBXFileReference; path = "SimplestGraph-Prefix.pch"; sourceTree = "<group>"; };
+		B0129FCD1599D069009A381D /* GDAppDelegate.h */ = {isa = PBXFileReference; path = GDAppDelegate.h; sourceTree = "<group>"; };
+		B0129FCE1599D069009A381D /* GDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GDAppDelegate.m; sourceTree = "<group>"; };
+		B0129FD11599D069009A381D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		B0129FD31599D069009A381D /* GDViewController.h */ = {isa = PBXFileReference; path = GDViewController.h; sourceTree = "<group>"; };
+		B0129FD41599D069009A381D /* GDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GDViewController.m; sourceTree = "<group>"; };
+		B0129FDB1599D06A009A381D /* SimplestGraphTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimplestGraphTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0129FDC1599D06A009A381D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		B0129FE41599D06A009A381D /* SimplestGraphTests-Info.plist */ = {isa = PBXFileReference; path = "SimplestGraphTests-Info.plist"; sourceTree = "<group>"; };
+		B0129FE61599D06A009A381D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B0129FE81599D06A009A381D /* SimplestGraphTests.h */ = {isa = PBXFileReference; path = SimplestGraphTests.h; sourceTree = "<group>"; };
+		B0129FE91599D06A009A381D /* SimplestGraphTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimplestGraphTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0129FB71599D069009A381D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0129FBF1599D069009A381D /* UIKit.framework in Frameworks */,
+				B0129FC11599D069009A381D /* Foundation.framework in Frameworks */,
+				B0129FC31599D069009A381D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0129FD71599D06A009A381D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0129FDD1599D06A009A381D /* SenTestingKit.framework in Frameworks */,
+				B0129FDE1599D06A009A381D /* UIKit.framework in Frameworks */,
+				B0129FDF1599D06A009A381D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0129FAF1599D069009A381D = {
+			isa = PBXGroup;
+			children = (
+				B0129FC41599D069009A381D /* SimplestGraph */,
+				B0129FE21599D06A009A381D /* SimplestGraphTests */,
+				B0129FBD1599D069009A381D /* Frameworks */,
+				B0129FBB1599D069009A381D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B0129FBB1599D069009A381D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0129FBA1599D069009A381D /* SimplestGraph.app */,
+				B0129FDB1599D06A009A381D /* SimplestGraphTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0129FBD1599D069009A381D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0129FBE1599D069009A381D /* UIKit.framework */,
+				B0129FC01599D069009A381D /* Foundation.framework */,
+				B0129FC21599D069009A381D /* CoreGraphics.framework */,
+				B0129FDC1599D06A009A381D /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B0129FC41599D069009A381D /* SimplestGraph */ = {
+			isa = PBXGroup;
+			children = (
+				B0129FCD1599D069009A381D /* GDAppDelegate.h */,
+				B0129FCE1599D069009A381D /* GDAppDelegate.m */,
+				B0129FD01599D069009A381D /* MainStoryboard.storyboard */,
+				B0129FD31599D069009A381D /* GDViewController.h */,
+				B0129FD41599D069009A381D /* GDViewController.m */,
+				B0129FC51599D069009A381D /* Supporting Files */,
+			);
+			path = SimplestGraph;
+			sourceTree = "<group>";
+		};
+		B0129FC51599D069009A381D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0129FC61599D069009A381D /* SimplestGraph-Info.plist */,
+				B0129FC71599D069009A381D /* InfoPlist.strings */,
+				B0129FCA1599D069009A381D /* main.m */,
+				B0129FCC1599D069009A381D /* SimplestGraph-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B0129FE21599D06A009A381D /* SimplestGraphTests */ = {
+			isa = PBXGroup;
+			children = (
+				B0129FE81599D06A009A381D /* SimplestGraphTests.h */,
+				B0129FE91599D06A009A381D /* SimplestGraphTests.m */,
+				B0129FE31599D06A009A381D /* Supporting Files */,
+			);
+			path = SimplestGraphTests;
+			sourceTree = "<group>";
+		};
+		B0129FE31599D06A009A381D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0129FE41599D06A009A381D /* SimplestGraphTests-Info.plist */,
+				B0129FE51599D06A009A381D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0129FB91599D069009A381D /* SimplestGraph */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0129FED1599D06A009A381D /* Build configuration list for PBXNativeTarget "SimplestGraph" */;
+			buildPhases = (
+				B0129FB61599D069009A381D /* Sources */,
+				B0129FB71599D069009A381D /* Frameworks */,
+				B0129FB81599D069009A381D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimplestGraph;
+			productName = SimplestGraph;
+			productReference = B0129FBA1599D069009A381D /* SimplestGraph.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B0129FDA1599D06A009A381D /* SimplestGraphTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0129FF01599D06A009A381D /* Build configuration list for PBXNativeTarget "SimplestGraphTests" */;
+			buildPhases = (
+				B0129FD61599D06A009A381D /* Sources */,
+				B0129FD71599D06A009A381D /* Frameworks */,
+				B0129FD81599D06A009A381D /* Resources */,
+				B0129FD91599D06A009A381D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0129FE11599D06A009A381D /* PBXTargetDependency */,
+			);
+			name = SimplestGraphTests;
+			productName = SimplestGraphTests;
+			productReference = B0129FDB1599D06A009A381D /* SimplestGraphTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0129FB11599D069009A381D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GD;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Rockhopper Technologies";
+			};
+			buildConfigurationList = B0129FB41599D069009A381D /* Build configuration list for PBXProject "SimplestGraph" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B0129FAF1599D069009A381D;
+			productRefGroup = B0129FBB1599D069009A381D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0129FB91599D069009A381D /* SimplestGraph */,
+				B0129FDA1599D06A009A381D /* SimplestGraphTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0129FB81599D069009A381D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0129FC91599D069009A381D /* InfoPlist.strings in Resources */,
+				B0129FD21599D069009A381D /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0129FD81599D06A009A381D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0129FE71599D06A009A381D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B0129FD91599D06A009A381D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0129FB61599D069009A381D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0129FCB1599D069009A381D /* main.m in Sources */,
+				B0129FCF1599D069009A381D /* GDAppDelegate.m in Sources */,
+				B0129FD51599D069009A381D /* GDViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0129FD61599D06A009A381D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0129FEA1599D06A009A381D /* SimplestGraphTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B0129FE11599D06A009A381D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0129FB91599D069009A381D /* SimplestGraph */;
+			targetProxy = B0129FE01599D06A009A381D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B0129FC71599D069009A381D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0129FC81599D069009A381D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B0129FD01599D069009A381D /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0129FD11599D069009A381D /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		B0129FE51599D06A009A381D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0129FE61599D06A009A381D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B0129FEB1599D06A009A381D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B0129FEC1599D06A009A381D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0129FEE1599D06A009A381D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimplestGraph/SimplestGraph-Prefix.pch";
+				INFOPLIST_FILE = "SimplestGraph/SimplestGraph-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B0129FEF1599D06A009A381D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimplestGraph/SimplestGraph-Prefix.pch";
+				INFOPLIST_FILE = "SimplestGraph/SimplestGraph-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B0129FF11599D06A009A381D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SimplestGraph.app/SimplestGraph";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimplestGraph/SimplestGraph-Prefix.pch";
+				INFOPLIST_FILE = "SimplestGraphTests/SimplestGraphTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B0129FF21599D06A009A381D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SimplestGraph.app/SimplestGraph";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimplestGraph/SimplestGraph-Prefix.pch";
+				INFOPLIST_FILE = "SimplestGraphTests/SimplestGraphTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0129FB41599D069009A381D /* Build configuration list for PBXProject "SimplestGraph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0129FEB1599D06A009A381D /* Debug */,
+				B0129FEC1599D06A009A381D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0129FED1599D06A009A381D /* Build configuration list for PBXNativeTarget "SimplestGraph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0129FEE1599D06A009A381D /* Debug */,
+				B0129FEF1599D06A009A381D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B0129FF01599D06A009A381D /* Build configuration list for PBXNativeTarget "SimplestGraphTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0129FF11599D06A009A381D /* Debug */,
+				B0129FF21599D06A009A381D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0129FB11599D069009A381D /* Project object */;
+}
